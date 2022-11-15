@@ -4,15 +4,7 @@ import "./capture.scss";
 
 export default function Capture() {
   const [err, setErr] = useState("");
-  const [page, setPage] = useState(true);
-  const [result, setResult] = useState([
-    {
-      file: "",
-      plate: "",
-      notify: "",
-      report: "",
-    },
-  ]);
+
   const [fileName, setFileName] = useState("");
 
   function handleChange(event) {
@@ -36,14 +28,6 @@ export default function Capture() {
       setErr("All inputs fields are compulsory");
       console.log(err);
     } else {
-      setPage(false);
-      setResult((prev) => ({
-        ...prev,
-        file: file,
-        plate: plate,
-        notify: notify,
-        report: report,
-      }));
       navigate("/result");
     }
 

@@ -1,0 +1,30 @@
+.result {
+  padding: 1rem;
+}
+.result-links {
+  width: 90%;
+}
+
+.result-links span {
+  margin: 1rem;
+  cursor: pointer;
+}
+
+.active {
+  border-bottom: 3px solid #02a7cb;
+}
+
+h2 {
+  margin: 0.5rem 0;
+}
+
+.title {
+  margin: 0.8rem 0;
+  font-weight: 600;
+}
+
+.title-info {
+  background: #f2f2f2;
+  border-radius: 5px;
+  padding: 0.5rem 0.7rem;
+}

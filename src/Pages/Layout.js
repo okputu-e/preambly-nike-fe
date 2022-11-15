@@ -4,7 +4,7 @@ export default function Layout() {
   return (
     <>
       <nav>
-        <h1>Logo</h1>
+        <a href="/">Preambly Incident Reporter</a>
       </nav>
       <Outlet />
     </>

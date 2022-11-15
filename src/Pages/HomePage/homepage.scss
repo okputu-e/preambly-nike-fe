@@ -1,0 +1,28 @@
+.homepage-hero {
+  padding: 1rem;
+}
+
+.homepage-hero h1 {
+  margin: 2rem 0;
+}
+
+.homepage-hero p {
+  margin: 2rem 0 4rem;
+  width: 90%;
+  font-size: 1.5rem;
+
+  @media (max-width: 320px) {
+    font-size: 100%;
+  }
+}
+
+.homepage-hero .toCapture {
+  background: var(--main-color);
+  border-radius: 3px;
+  color: #ffffff;
+  padding: 0.6rem 5rem;
+  border: none;
+  margin: 0 auto;
+  cursor: pointer;
+  text-decoration: none;
+}

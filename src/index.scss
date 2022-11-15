@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --main-color: #02a7cb;
+  --ffamily: "Inter", sans-serif;
+}
+
+body {
+  font-family: var(--ffamily);
+}
+
+input,
+option {
+  font-family: inherit;
+}
+
+.hidden {
+  display: none;
+}
+
+.center {
+  text-align: center;
+}
+
+nav {
+  padding: 1rem;
+  background-color: var(--main-color);
+  color: white;
+  margin-bottom: 2rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}

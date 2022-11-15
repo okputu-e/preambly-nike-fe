@@ -1,0 +1,92 @@
+.capture {
+  width: 80%;
+  background: #ffffff;
+  box-shadow: 0px 4px 80px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  margin: 0 auto 1rem;
+  padding: 1rem 5rem;
+
+  h1 {
+    color: var(--main-color);
+    text-align: center;
+  }
+
+  @media (max-width: 600px) {
+    padding: 1rem 2rem;
+  }
+
+  @media (max-width: 320px) {
+    padding: 1rem 1rem;
+  }
+}
+
+form {
+  width: 100%;
+}
+
+.form-input,
+.options {
+  margin: 1.25rem 0;
+}
+
+.plate-number {
+  width: 100%;
+  border: 1px solid #bdbdbd;
+  border-radius: 5px;
+  padding: 0.8rem 1.6rem;
+  color: #000000;
+}
+
+.file-container {
+  border: 1px solid #bdbdbd;
+  border-radius: 5px;
+  padding: 0.8rem 1.6rem;
+
+  label {
+    p {
+      cursor: pointer;
+    }
+  }
+}
+
+.file-label p {
+  border: 1px dashed #000000;
+  border-radius: 5px;
+}
+
+.options {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  margin: 2.5rem 0 5rem;
+
+  @media (max-width: 600px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+select {
+  width: 100%;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  padding: 0.5rem 0;
+}
+
+label.label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.btn {
+  text-align: center;
+}
+
+.capture-btn {
+  background: var(--main-color);
+  border-radius: 3px;
+  color: #ffffff;
+  padding: 0.6rem 5rem;
+  border: none;
+  margin: 0 auto;
+  cursor: pointer;
+}

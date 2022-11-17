@@ -42,7 +42,12 @@ export default function HeroSlider({ heroImg }) {
   const slides = images.map(
     (image, index) =>
       index === currentIndex && (
-        <img key={image.id} src={image.url} className={heroImg} />
+        <img
+          key={image.id}
+          src={image.url}
+          className={heroImg}
+          alt="hero-images"
+        />
       )
   );
   return <div className="hero-text"> {slides}</div>;

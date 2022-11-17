@@ -21,7 +21,7 @@ export default function HomePage() {
             btntitle="Report Incident"
           />
           <span className="btn-img circle-p pulse">
-            <img src={BtnClik} alt="" />
+            <img src={BtnClik} alt="btnclick" />
           </span>
         </div>
       </div>
@@ -29,7 +29,7 @@ export default function HomePage() {
         <HeroSlider heroImg="hero-img" />
       </div>
       <div className="circle">
-        <img src={Circle} alt="" />
+        <img src={Circle} alt="circle" />
       </div>
     </div>
   );
